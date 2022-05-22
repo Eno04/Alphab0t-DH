@@ -11,5 +11,5 @@ apt-get install tesseract
 apt-get install nmap
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
-
+rm -rf session.json
 echo "All dependencies have been installed, please run the command \"npm start\" to immediately start the script"
